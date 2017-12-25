@@ -1,0 +1,130 @@
+<html>
+<head>
+	<title>Redwall Cafe Online Order</title>
+	<link rel="stylesheet" type="text/css" href="redwallstyle.css">
+</head>
+<body>
+	<div id="logo">
+		<img align=left src="Images/chef.png" alt="Chef" style="width:211px;height:211px;">
+		<img align=right src="Images/pizzaclipart.png" alt="Pizza" style="width:211px;height:211px;">
+		<h1><a href="home.html">Redwall Cafe</a></h1>	
+	</div>
+	<div id="menubar">
+		<ul id="menu">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="product.html">Product</a></li>
+			<li><a href="schedule.html">Schedule</a></li>
+			<li><a href="order.html">Order</a></li>
+			<li><a href="contactus.html">Contact</a></li>
+			<li><a href="help.html">Help</a></li>
+		</ul>
+	</div>
+	<div id="newsbar">
+		<h3>Newsflash!</h3>
+		<p id="news">Any important news or information will be highlighted here.<br>
+		The Redwall Cafe is open for business! Please come visit us!</p>
+	</div>
+	<br>
+	<div id="orderform">
+		<h2>Online Order Form</h2>
+		<p align=center>If you would like to order online, please fill out the fields below.<br>
+		We'll confirm the order and have it ready as soon as we can.<br>
+		Multiple orders will require additional form submissions.<br>
+		Additional requests may be added in the comment section.</p>
+	
+		<form action="http://grid.cs.gsu.edu/~mhan7/csc2320_submit.php" method="POST">
+		First Name: <input type="text" name="fname"><br>
+		Last Name: <input type="text" name="lname"><br>
+		Street Address: <input type="text" name="street"><br>
+		City: <input type="text" name="city"><br>
+		State:
+		<select name="state">
+			<option value="N/A" selected> --Select a state-- </option>
+			<option value="AL">Alabama</option>
+			<option value="AK">Alaska</option>
+			<option value="AZ">Arizona</option>
+			<option value="AR">Arkansas</option>
+			<option value="CA">California</option>
+			<option value="CO">Colorado</option>
+			<option value="CT">Connecticut</option>
+			<option value="DE">Delaware</option>
+			<option value="DC">District Of Columbia</option>
+			<option value="FL">Florida</option>
+			<option value="GA">Georgia</option>
+			<option value="HI">Hawaii</option>
+			<option value="ID">Idaho</option>
+			<option value="IL">Illinois</option>
+			<option value="IN">Indiana</option>
+			<option value="IA">Iowa</option>
+			<option value="KS">Kansas</option>
+			<option value="KY">Kentucky</option>
+			<option value="LA">Louisiana</option>
+			<option value="ME">Maine</option>
+			<option value="MD">Maryland</option>
+			<option value="MA">Massachusetts</option>
+			<option value="MI">Michigan</option>
+			<option value="MN">Minnesota</option>
+			<option value="MS">Mississippi</option>
+			<option value="MO">Missouri</option>
+			<option value="MT">Montana</option>
+			<option value="NE">Nebraska</option>
+			<option value="NV">Nevada</option>
+			<option value="NH">New Hampshire</option>
+			<option value="NJ">New Jersey</option>
+			<option value="NM">New Mexico</option>
+			<option value="NY">New York</option>
+			<option value="NC">North Carolina</option>
+			<option value="ND">North Dakota</option>
+			<option value="OH">Ohio</option>
+			<option value="OK">Oklahoma</option>
+			<option value="OR">Oregon</option>
+			<option value="PA">Pennsylvania</option>
+			<option value="RI">Rhode Island</option>
+			<option value="SC">South Carolina</option>
+			<option value="SD">South Dakota</option>
+			<option value="TN">Tennessee</option>
+			<option value="TX">Texas</option>
+			<option value="UT">Utah</option>
+			<option value="VT">Vermont</option>
+			<option value="VA">Virginia</option>
+			<option value="WA">Washington</option>
+			<option value="WV">West Virginia</option>
+			<option value="WI">Wisconsin</option>
+			<option value="WY">Wyoming</option>
+		</select>
+		<br>
+		Zip Code: <input type="text" name="zipcode"><br>
+		Item Name:
+		<ul>
+			<li><input type="checkbox" name="itemname" value="spaghettiandmeatballs">Spaghetti and Meatballs</li>
+			<li><input type="checkbox" name="itemname" value="tortellini">Tortellini</li>
+			<li><input type="checkbox" name="itemname" value="lasagna">Lasagna</li>
+			<li><input type="checkbox" name="itemname" value="calzone">Calzone</li>
+			<li><input type="checkbox" name="itemname" value="fettucinealfredo">Fettucine Alfredo with Broccoli</li>
+			<li><input type="checkbox" name="itemname" value="minestronesoup">Minestrone Soup</li>
+			<li><input type="checkbox" name="itemname" value="pizza">Pizza</li>
+			<li><input type="checkbox" name="itemname" value="caesarsalad">Caesar Salad</li>
+			<li><input type="checkbox" name="itemname" value="coffee">Coffee</li>
+			<li><input type="checkbox" name="itemname" value="rotinipasta">Rotini Pasta</li>
+			<li><input type="checkbox" name="itemname" value="icecream">Ice Cream</li>
+			<li><input type="checkbox" name="itemname" value="breadsticks">Breadsticks</li>
+			<li><input type="checkbox" name="itemname" value="tomatosoup">Tomato Soup</li>
+		</ul>
+		Item Size (Choose one):
+		<ul>
+		<li>Small<input type="radio" name="itemsize"></li>
+		<li>Medium<input type="radio" name="itemsize"></li>
+		<li>Large<input type="radio" name="itemsize"></li>
+		</ul>
+		Order Quantity: <input type="text" name="quantity">
+		
+		<p>Comments/Requests(Character Limit:1000): </p>
+		<textarea name="comment" rows="10" cols="90%" maxlength="1000" placeholder="Let us know if you need anything else here..."></textarea>
+		
+		<p><input type="submit" value="Place Order"><input type="reset" value="Reset Fields"></p>
+	
+		</form>
+	</div>
+</body>
+
+</html>

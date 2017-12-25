@@ -1,0 +1,49 @@
+//Assignment 4 for CSC2320
+//Jimmy Tran
+
+//Initial variables
+var a = [9,3,4.3,24,54,8,19,23,46,87,3.14];
+var b = [];
+var c = [];
+
+
+//Task 1
+for(i=0; i<a.length; i++)
+{
+	if(a[i]==23)
+	{
+		b.push(i);
+	}	
+};
+alert(b);
+
+
+//Task 2
+for(i=0; i<a.length; i++)
+{
+	if(a[i]>10)
+	{
+		c.push(a[i]);
+	}
+};
+alert(c);
+
+
+//Alternative Task
+var answer = true;
+var answer1 = [7];
+var answer2 = [24,54,19,23,46,87];
+function compare(array,arrayanswer){
+	for(i=0;i<array.length;i++){
+		if(array[i]!=arrayanswer[i]){
+			alert("The answer is incorrect.");
+			answer=false;
+		}
+	}
+	if(answer=true)
+	{
+		alert("The answer is correct.");
+	}
+}
+compare(b, answer1);
+compare(c, answer2);

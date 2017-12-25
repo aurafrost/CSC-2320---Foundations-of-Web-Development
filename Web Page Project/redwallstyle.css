@@ -1,0 +1,130 @@
+html{
+	text-align: center;
+	font-family: arial;
+	font-size: 150%;
+	font-weight: bolder;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 3%;
+}
+h1{
+	font-size: 350%;
+	font-style: oblique;
+}
+h2{
+	font-size:300%;
+	font-style:oblique;
+	text-align:center;
+}
+h3{
+	font-style: oblique;
+}
+body{
+	background-image: url("images/redbrickwall.jpg");
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+p{
+	
+	text-align:center;
+}
+#logo{
+	text-align: center;
+	border: 2px 2px 2px 2px;
+	border-style: dashed;
+	background-color: red;
+	border-color: black;
+}
+#menubar{
+	width: 100%;
+	float: left;
+	margin-left: 2%;
+}
+ul#menu li{
+	float: left;
+	display: inline;
+}
+ul#menu li a{
+ 	float: left; 
+ 	height: 22px;
+ 	padding: 10px 50px 11px 50px;
+ 	text-align: center;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	background-color: red;
+	border-color: black;
+}
+#newsbar{
+	width: 66%;
+	float: left;
+	margin: 1% 17% 1% 17%;
+	background-color: darkgreen;
+	color: red;
+	text-align: center;
+	border-style: solid;
+	border-color: yellow;
+}
+p#news{
+	color: yellow;
+}
+#spotify{
+	background-color: darkred;
+	border-color: black;
+	border-style: dashed;
+	float: left;
+	width: 99.5%;
+	margin: 0 0 1% 0;
+}
+#introduction{
+	float: left;
+	width: 80%;
+	background-color: darkred;
+	border-color: black;
+	border-style: dashed;
+}
+#sponsors{
+	float: right;
+	width: 18.5%;
+	border-color: black;
+	border-style: dashed;
+	background-color: darkred;
+}
+ol, ul{
+	text-align: left;
+}
+table{
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	background-color: darkred;
+}
+caption{
+	font-size: 200%;
+	font-weight: bolder;
+	border-style: solid;
+	border-color: black;
+	background-color: darkred;
+}
+th, td{
+	padding: 5px 20px 5px 20px;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: black;
+	font-weight: bold;
+	font-size: 120%;
+}
+form{
+	padding: 1% 5% 1% 5%;
+}
+#orderform{
+	float: left;
+	background-color: darkred;
+	border-color: black;
+	border-style: dashed;
+	text-align: left;
+	margin: 0 17.5% 0 17.5%;
+}
